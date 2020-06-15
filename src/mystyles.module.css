@@ -1,0 +1,10 @@
+.pageTile {
+    height: 100vh;
+    color: purple;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+}
+
+.border {
+    border: solid grey 1px;
+}

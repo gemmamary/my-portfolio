@@ -1,0 +1,23 @@
+
+.navBar {
+    display: flex;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+    border: 1px solid grey;
+}
+
+.aboutme {
+    height: 50vh;
+    border: 1px solid grey;
+}
+
+.splitPage {
+    height: 50vh;
+    border: solid blue 1px;
+}
+
