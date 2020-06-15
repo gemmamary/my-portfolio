@@ -13,7 +13,6 @@ class NavBar extends React.Component {
                 <NavLinks id="aboutme" linkname="About Me"/>
                 <NavLinks id="projects" linkname="Projects"/>
                 <NavLinks id="contact" linkname="Contact"/>
-                <NavLinks id="footer" linkname="Footer"/>
             </div>     
         );
     }

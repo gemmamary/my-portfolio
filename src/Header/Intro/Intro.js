@@ -10,10 +10,10 @@ class Intro extends React.Component {
     render () {
         return (
             <div className={styles.splitPage}>
-                <h1>SplitPage</h1>
-                <p>
-                    Software Test Engineer
-                </p>                
+                <div className={styles.intro}> 
+                    <p className={styles.name}>Gemma Mary Mcgee</p>
+                    <p className={styles.job}>Software Test Engineer</p>
+                </div>            
                 <NavBar />
             </div>
         );

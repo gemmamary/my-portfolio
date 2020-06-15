@@ -1,8 +1,10 @@
 .pageTile {
     height: 100vh;
-    color: purple;
-    font-family: "Courier New", Courier, monospace;
-    text-align: center;
+    width: 70vw;
+    margin: auto;
+    color: rgb(0, 78, 70);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    
 }
 
 .border {
