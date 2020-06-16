@@ -1,35 +1,39 @@
 .splitPage {
     height: 50vh;
-    border: solid blue 1px;
+}
+
+.intro {
+    padding-left: 15%;
+    font-size: 2em; 
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 20vh;
+    width: 10vw;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.links {
+    height: 50px;
+    width: 150px;
+    
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.aboutme {
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.navBar {
-    display: flex;
-    justify-content: center;
-    border: solid red 1px;
-}
-
-.links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 150px;
-    border: 1px solid grey;
-}
-
-a {
-    text-decoration: none;
-    color: rgb(0, 78, 70);
-    font-size: 1.5em;
-}
-
-.intro {
-    font-size: 3em;
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-}

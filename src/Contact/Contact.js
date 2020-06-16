@@ -10,7 +10,7 @@ class Contact extends React.Component {
 
     render () {
         return (
-            <div className={styles.pageTile + " " + styles.border}>
+            <div id ="contact" className={styles.pageTile + " " + styles.border}>
                 <h1>If you'd like to get in touch, click on one of the below links!</h1>
                 <ContactMethod url="https://ie.linkedin.com/in/gemma-mcgee-620634102" contactname="LinkedIn"/>   
                 <Footer />

@@ -9,7 +9,7 @@ class NavBar extends React.Component {
 
     render () {
         return (
-            <div className={styles.navBar}>
+            <div className={styles.center}>
                 <NavLinks id="aboutme" linkname="About Me"/>
                 <NavLinks id="projects" linkname="Projects"/>
                 <NavLinks id="contact" linkname="Contact"/>

@@ -8,12 +8,11 @@ class NavLinks extends React.Component {
 
     render () {
         return (
-            <span className={styles.links}>
+            <span className={styles.center}>
                 <a href={"#" + this.props.id}>{this.props.linkname}</a>
             </span>        
         )
     }
 }
-
 
 export default NavLinks;

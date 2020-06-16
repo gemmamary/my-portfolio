@@ -1,12 +1,12 @@
+#main {
+    background-image: linear-gradient(rgb(69, 0, 71), rgb(114, 25, 37), rgb(6, 2, 63));
+}
+
 .pageTile {
     height: 100vh;
     width: 70vw;
     margin: auto;
-    color: rgb(0, 78, 70);
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;    
 }
 
-.border {
-    border: solid grey 1px;
-}
+

@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom';
 import Header from './Header/Header.js';
 import ProjectArea from './Projects/ProjectArea';
 import Contact from './Contact/Contact.js';
+import styles from './mystyles.module.css';
 
 const myPage = (
-  <div>
+  <div id={styles.main}>
       <Header />
       <ProjectArea />
       <Contact />

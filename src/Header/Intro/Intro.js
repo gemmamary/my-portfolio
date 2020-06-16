@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './../headerstyles.module.css';
-import NavBar from './../Navbar/NavBar.js';
+import Avatar from './myavatar.png';
 
 class Intro extends React.Component {
     constructor() {
@@ -10,11 +10,15 @@ class Intro extends React.Component {
     render () {
         return (
             <div className={styles.splitPage}>
+                <div className={styles.center}>
+                    <img src={Avatar} alt="Profile Avatar" className={styles.avatar}/>
+                </div>
                 <div className={styles.intro}> 
-                    <p className={styles.name}>Gemma Mary Mcgee</p>
-                    <p className={styles.job}>Software Test Engineer</p>
+                    <p>Gemma Mcgee</p>
+                    <p>Software Test Engineer</p>
+                    <p>Half Norwegian, Half Irish. Born in England, Raised in Norway.
+                    I'm thinking of getting a T-Shirt.</p>
                 </div>            
-                <NavBar />
             </div>
         );
     }
