@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './../headerstyles.module.css';
 
 class NavLinks extends React.Component {
     constructor() {
@@ -8,7 +7,7 @@ class NavLinks extends React.Component {
 
     render () {
         return (
-            <span className={styles.center}>
+            <span>
                 <a href={"#" + this.props.id}>{this.props.linkname}</a>
             </span>        
         )

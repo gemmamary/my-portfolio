@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './../mystyles.module.css';
 import Intro from './Intro/Intro.js';
-import NavBar from './Navbar/NavBar.js';
+import ContactMethods from './Contact/ContactMethod.js';
 
 class Header extends React.Component {
     constructor() {
@@ -10,9 +10,11 @@ class Header extends React.Component {
 
     render () {
         return (
-            <div className={styles.pageTile + " " + styles.center}>
+            <div className={styles.header}>
+                
                 <Intro />
-                <NavBar />
+                <ContactMethods />
+                
             </div>
         );
     }

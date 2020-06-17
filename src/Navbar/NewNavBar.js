@@ -1,6 +1,7 @@
 import React from 'react';
-import styles from './../headerstyles.module.css';
 import NavLinks from './NavLinks.js';
+import styles from './../mystyles.module.css';
+
 
 class NavBar extends React.Component {
     constructor() {
@@ -9,10 +10,9 @@ class NavBar extends React.Component {
 
     render () {
         return (
-            <div className={styles.center}>
-                <NavLinks id="aboutme" linkname="About Me"/>
+            <div className={styles.navBar}>
+                <NavLinks id="main" linkname="Home"/>
                 <NavLinks id="projects" linkname="Projects"/>
-                <NavLinks id="contact" linkname="Contact"/>
             </div>     
         );
     }

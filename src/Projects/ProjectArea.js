@@ -9,7 +9,7 @@ class ProjectArea extends React.Component {
 
     render () {
         return (
-            <div id="projects" className={styles.pageTile + " " + styles.border}>
+            <div id="projects" className={styles.projectArea}>
                 <ProjectTile />
                 <ProjectTile />
                 <ProjectTile />
