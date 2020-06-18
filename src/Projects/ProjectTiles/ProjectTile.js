@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './../projectstyles.module.css';
 
 class ProjectTile extends React.Component {
     constructor() {
@@ -8,14 +7,14 @@ class ProjectTile extends React.Component {
 
     render () {
         return (
-            <div className={styles.projects}>
+            <div>
                 <div>
-                    <h1>Project Title</h1>
-                    <p>Brief Project Description</p>
-                    <a href="#">Go To Code</a>
+                    <h1>{this.props.title}</h1>
+                    <p>{this.props.technologies}</p>
+                    <a href={this.props.url}>Go To Code</a>
                 </div>
                 <div>
-                    <p>Longer Project Description</p>
+                    <p>{this.props.description}</p>
                 </div>
 
             </div>
@@ -24,3 +23,4 @@ class ProjectTile extends React.Component {
 }
 
 export default ProjectTile;
+

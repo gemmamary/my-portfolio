@@ -14,7 +14,7 @@ class Intro extends React.Component {
                         <br /> Software Test Engineer 
                     </h1>
                     <p> Half Norwegian, Half Irish. Born in England, Raised in Norway. 
-                        I'm thinking of getting a T-Shirt.
+                        I'm thinking of getting a T-Shirt. 
                     </p>
                 </div>            
             </div>
