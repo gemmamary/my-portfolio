@@ -4,13 +4,10 @@ import Intro from './Intro/Intro.js';
 import ContactMethods from './Contact/ContactMethod.js';
 
 class Header extends React.Component {
-    constructor() {
-        super();
-    }
-
+    
     render () {
         return (
-            <div className={styles.header}>
+            <div id="main" className={styles.header}>
                 
                 <Intro />
                 <ContactMethods />

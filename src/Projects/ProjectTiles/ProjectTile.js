@@ -1,10 +1,7 @@
 import React from 'react';
 
 class ProjectTile extends React.Component {
-    constructor() {
-        super();
-    }
-
+    
     render () {
         return (
             <div>
