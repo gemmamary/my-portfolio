@@ -7,9 +7,8 @@ class Intro extends React.Component {
         return (
             <div>
                 <div className={styles.intro}> 
-                    <h1>Gemma Mcgee 
-                        <br /> Software Test Engineer 
-                    </h1>
+                    <h1>Gemma Mcgee <br />
+                    <span className={styles.occupation}>Software Test Engineer </span> </h1>
                     <p> Half Norwegian, Half Irish. Born in England, Raised in Norway. 
                         I'm thinking of getting a T-Shirt. 
                     </p>
