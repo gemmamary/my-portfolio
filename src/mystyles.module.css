@@ -13,6 +13,7 @@ body {
 
 .navBar {
     height: 7vh;
+    width: 100%;
     position: fixed;
     top: 0;
     background-image: linear-gradient(rgb(0, 0, 0), rgb(20, 20, 20));
@@ -24,13 +25,14 @@ body {
 
 .navBar > a {
     text-decoration: none;
-    color: red;
+    color: white;
     margin: 20px;
 }
 
 .header {
     height: 50vh;
-    width: 100vw;  
+    width: 100vw; 
+    margin-top: 7vh;
     background-image: linear-gradient(rgb(33, 0, 37), rgb(22, 0, 21));
     color: white;
     display: flex;
