@@ -13,6 +13,8 @@ body {
 
 .navBar {
     height: 7vh;
+    position: fixed;
+    top: 0;
     background-image: linear-gradient(rgb(0, 0, 0), rgb(20, 20, 20));
     box-shadow: 2px 2px 2px black;
     display: flex;
