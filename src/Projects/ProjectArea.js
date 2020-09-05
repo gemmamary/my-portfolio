@@ -8,6 +8,16 @@ class ProjectArea extends React.Component {
         return (
             <div id="projects" className={styles.projectArea}>
 
+                <ProjectTile
+                    title="Calculator App"
+                    technologies="Using C# to write the program and MSTest for unit testing"
+                    url="https://github.com/gemmamary/CalculatorApp"
+                    description="This is a simple console app written in C#. A user is prompted to enter a name, 
+                    and a personalised greeting is displayed to them. The user then chooses the operation and enters
+                    the first and second number, after which the sum is displayed to them. Unit tests for this are 
+                    written using the MSTest framework. 
+                    " />
+
                 <ProjectTile 
                     title="Patchwork Webtests" 
                     technologies="Using Python, Pytest and Selenium Webdriver" 
@@ -29,9 +39,7 @@ class ProjectArea extends React.Component {
                     url="https://github.com/gemmamary/my-portfolio" 
                     description="The very site you're looking at. REACT is a framework I have wanted to 
                     learn for a while. I started by installing NodeJS, and npm. I used 'create-react-app' to start.
-                    The development of this is being done on a Windows OS, and is written in Visual Studio Code.
-                    Code changes are being pushed to github using git in the command line, and I'm using github pages
-                    to deploy the site." />
+                    " />
 
                 <ProjectTile 
                     title="Random Quote Generator" 
@@ -39,7 +47,7 @@ class ProjectArea extends React.Component {
                     url="https://github.com/gemmamary/randomquotes" 
                     description="I completed this project as part of one of the freeCodeCamp certificates. 
                     It was a small project where I used HTML and CSS to style the UI, and wrote a script in 
-                    jQuery to interact with an API on github to retrieve random quotes and display them to the user.
+                    jQuery to retrieve quotes from a JSON file on github and display them to the user.
                     " />
 
             </div>
